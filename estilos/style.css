@@ -1,4 +1,3 @@
- 
 @charset "UTF-8";
 
 * {
@@ -10,7 +9,7 @@ html, body {
     height: 100vh;
     width: 100vw;
     background-color: black;
-    background: url(assets/img/fundo-madeira.jpg) no-repeat top center;
+    background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -23,16 +22,21 @@ main {
 #mostruario {
     height: 627px;
     width: 311px;
-    background: url(assets/img/frame-iphone.png) no-repeat;
+    background: url(../imagens/frame-iphone.png) no-repeat;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-#tela-mostruario {
+#tela{
     position: relative;
     top: 80px;
     left: 22px;
     width: 269px;
     height: 471px;
+}
+section#tela-mostruario img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
 }
